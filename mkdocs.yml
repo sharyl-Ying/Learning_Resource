@@ -10,7 +10,11 @@ plugins:
   - search
 nav:
   - 首页: index.md
-  - 编程开发: 编程开发.md
-  - 语言学习: 语言学习.md
+  - 语言学习:
+    - 语言学习: 
+    - 雅思备考: 语言学习/雅思.md    
+  - 数学基础: 
+      - 高等代数: 数学基础/高等代数.md
+      - MIT Calculus Course: 数学基础/MIT Calculus Course.md
   - 待整理: 待整理.md
   - 致谢与声明: 致谢与声明.md
