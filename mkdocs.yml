@@ -41,12 +41,13 @@ plugins:
 nav:
   - 首页: index.md
   - 语言学习:
-    - 语言学习主页: 语言学习.md
     - 雅思备考: 语言学习/雅思.md    
   - 数学基础: 
-    - 数学基础主页: 数学基础.md
     - 高等代数: 数学基础/高等代数.md
     - MIT Calculus Course: 数学基础/MIT Calculus Course.md
+  - 编程基础:
+  -经济学基础理论：
+  
   - 致谢与声明: 致谢与声明.md
 
 markdown_extensions:
