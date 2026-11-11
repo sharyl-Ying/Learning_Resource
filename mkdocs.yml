@@ -1,0 +1,15 @@
+site_name: 我的学习资料库
+site_url: https://sharyl-Ying.github.io/my-library/
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - search.suggest
+plugins:
+  - search
+nav:
+  - 首页: index.md
+  - 编程开发: 编程开发.md
+  - 语言学习: 语言学习.md
+  - 待整理: 待整理.md
