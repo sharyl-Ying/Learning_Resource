@@ -25,7 +25,7 @@ theme:
         name: 切换到浅色模式
   features:
     - navigation.sections
-    - navigation.expand
+    #- navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
@@ -49,7 +49,6 @@ nav:
     - 数学基础主页: 数学基础.md
     - 高等代数: 数学基础/高等代数.md
     - MIT Calculus Course: 数学基础/MIT Calculus Course.md
-  - 待整理: 待整理.md
   - 致谢与声明: 致谢与声明.md
 
 markdown_extensions:
