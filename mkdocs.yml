@@ -1,5 +1,5 @@
 site_name: 我的学习资料库
-site_url: https://sharyl-Ying.github.io/my-library/
+site_url: https://sharyl-Ying.github.io/Learning_Resource/
 theme:
   name: material
   language: zh
@@ -11,7 +11,6 @@ plugins:
 nav:
   - 首页: index.md
   - 语言学习:
-    - 语言学习: 
     - 雅思备考: 语言学习/雅思.md    
   - 数学基础: 
       - 高等代数: 数学基础/高等代数.md
