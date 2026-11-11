@@ -1,19 +1,66 @@
 site_name: 我的学习资料库
 site_url: https://sharyl-Ying.github.io/Learning_Resource/
+repo_name: sharyl-Ying/Learning_Resource
+repo_url: https://github.com/sharyl-Ying/Learning_Resource
+
 theme:
   name: material
   language: zh
+  palette:
+    # 浅色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    # 深色模式（星空质感！）
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
   features:
     - navigation.sections
+    - navigation.expand
+    - navigation.top
     - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+
 plugins:
-  - search
+  - search:
+      lang:
+        - zh
+        - en
+
 nav:
   - 首页: index.md
   - 语言学习:
+    - 语言学习主页: 语言学习.md
     - 雅思备考: 语言学习/雅思.md    
   - 数学基础: 
-      - 高等代数: 数学基础/高等代数.md
-      - MIT Calculus Course: 数学基础/MIT Calculus Course.md
+    - 数学基础主页: 数学基础.md
+    - 高等代数: 数学基础/高等代数.md
+    - MIT Calculus Course: 数学基础/MIT Calculus Course.md
   - 待整理: 待整理.md
   - 致谢与声明: 致谢与声明.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - footnotes
+  - md_in_html
+  - tables
